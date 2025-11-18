@@ -150,7 +150,7 @@ padding: 20px;
       width: 100%;  
   }
 }
-
+_________________________________
 .priceinfo{
     display: flex;
     flex-direction: column;
@@ -272,6 +272,50 @@ background-position:center ;
     font-size: 14px;
   }
 }
+
+.product-title {
+    color: #0D0E43;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0 5px;   
+}
+
+.Trending_Products .priceinfo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.new-price {
+    font-weight: 700;
+    color: #0D0E43;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #1518754D;
+    opacity: 0.6;
+    font-size: 14px;
+}
+.Trending_Products {
+    padding-bottom: 30px;
+}
+.Trending_Products h2 {
+    color: #0D0E43;
+    font-weight: 700;
+   
+    margin-bottom: 40px;      
+}
+.Trending_Products .row {
+    gap: 20px;
+    justify-content: center; 
+}
+.Trending_Products .product{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    flex-grow: 1;
+}
+
+
+
 
 
 /* footer*/
