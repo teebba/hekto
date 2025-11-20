@@ -314,6 +314,62 @@ background-position:center ;
     flex-grow: 1;
 }
 
+.Top_Categories .img {
+    width: 170px !important;
+    height: 170px !important;
+    margin: 15px ;
+    border-radius: 50% !important;
+    background: #F5F6F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+}
+
+.Top_Categories .img .but {
+    background-color: #08D15F;      
+    color: #fff;                   
+    border: none;
+    padding: 4px 8px;            
+  
+    font-size: 10px;                
+    cursor: pointer;
+
+}
+.Top_Categories .marg {
+    margin-bottom: 60px; 
+     color: #0D0E43; 
+    font-size: 32px;
+    font-weight: 700;
+   
+    display: block;  
+   
+}
+.Top_Categories {
+        padding: 70px 0; 
+     text-align: center;  
+}
+.priceinfo span {
+    display: block;
+}
+
+
+@media (max-width: 450px) {
+  .Top_Categories .product {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+  }
+}
+
+
+
+
+
+
 
 
 
